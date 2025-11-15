@@ -1,0 +1,65 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-pill {
+    background: linear-gradient(90deg, #3b10e6, #6c2ff2);
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 9999px;
+    overflow: hidden;
+    border: 6px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 0 25px #3b10e6aa;
+}
+
+.skill-box {
+    transition: .2s ease;
+    background: #0f0f0f;
+    border: 1px solid #1a1a1a;
+}
+
+.skill-box:hover {
+    transform: scale(1.18);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+}
+
+.scroll-reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.7s ease;
+}
+
+.scroll-visible {
+    opacity: 1;
+    transform: none;
+}
+
+.thank {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: #6c2ff2;
+}
+@layer utilities {
+  .fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s ease-out forwards;
+  }
+
+  @keyframes fadeUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+@layer utilities {
+  .text-shadow-gray {
+    text-shadow: 5px 20px 20px rgba(139, 136, 136, 0.6);
+  }
+}
