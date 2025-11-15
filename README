@@ -1,0 +1,39 @@
+*Student Name:AIMAN TANVEER
+Student ID:647579
+Course: WEBSITE DEVELOPMENT
+Instructor: UMAIR SAJJID 
+Project Summary
+       This is a personal portfolio website built as a frontend developer submission for the Website Development course. It showcases my skills, projects, and educational background, and includes an option for visitors to view my CV and contact me.
+📂 Design Reference:
+ FilesDesign File (.fig file): [https://www.figma.com/design/ilVTwwb1H4psoHWNdA2JGO/Untitled?node-id=0-1&t=67KUg2MTNjsnaol2-1]
+ Project Documentation (Google Docs): [https://docs.google.com/document/d/1vifckr56qRsGfeQLwTFvWZaZiwYDmsAsGBJPJZEWwiQ/edit?usp=sharing] 
+ Submission Date: 15-11-2025
+ ▶️ Live preview
+     GitHub Pages / Vercel Link:
+  The deployed live preview is not available.GitHub Repository Link: https://github.com/aimanramie602-cell/porfolio-website.git🛠️ 
+  Technologies Used The project is built using the following core technologies:
+  HTML5
+  CSS3
+  Tailwind CSS (CLI Version)
+├── assets/
+│   ├── images/
+├── index.html
+├── style.css
+├── tailwind.config.js
+└── README
+⚙️ CSS Root Variable Structure:
+CSS:root {
+  /* Color Palette */
+  --color-primary: #111111;
+  --color-secondary: #222222;
+  --color-accent: #5B2186;
+  --primary-color: #9B34EA;
+  --secondary-color: #999999;
+  
+  /* Typography */
+  --font-main: "Inter", sans-serif;
+  --H1-size: 3rem;
+  --H2-size: 2rem;
+  --H3-size: 1.5rem;
+  --P-size: 1rem;
+}
